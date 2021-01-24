@@ -1,0 +1,33 @@
+{
+    "name": "webpack-vue-router",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "production": "mix --production"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/core": "^7.12.10",
+        "@babel/preset-env": "^7.12.11",
+        "babel-loader": "^8.2.2",
+        "laravel-mix": "^6.0.10",
+        "nodemon": "^2.0.7",
+        "postcss": "^8.2.4",
+        "vue-loader": "^15.9.6",
+        "vue-template-compiler": "^2.6.12",
+        "webpack": "^5.17.0",
+        "webpack-cli": "^4.4.0"
+    },
+    "dependencies": {
+        "vue": "^2.6.12",
+        "vue-router": "^3.4.9",
+        "vuex": "^3.6.0"
+    }
+}
